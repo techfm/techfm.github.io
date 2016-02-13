@@ -1,0 +1,19 @@
+# Team names, titles and social links
+people:
+- name: Matthew Greenwood
+  pic: 2
+  position: Tech Lead
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+
+- name: Josh Leys
+  pic: 3
+  position: Sales
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #

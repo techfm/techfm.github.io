@@ -1,0 +1,20 @@
+url: https://github.com/techfm/techfm.net.au
+baseurl: ""
+
+# Site settings
+title: Tech FM
+email: info@techfm.net.au
+description: "The homepage of Sydney audio visual company, Tech FM."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/
+  - title: facebook
+    url: https://facebook.com/
+  - title: github
+    url: https://github.com/techfm/techfm.net.au
+
+# Build settings
+markdown: kramdown
+permalink: pretty
