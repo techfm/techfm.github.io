@@ -1,11 +1,12 @@
-url: https://github.com/techfm/techfm.net.au
-baseurl: ""
-
 # Site settings
 title: TechFM
-email: info@techfm.net.au
-description: "The homepage of Sydney audio visual company, Tech FM."
+email: mgreenwood@techfm.net.au
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
