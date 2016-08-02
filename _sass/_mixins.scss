@@ -15,9 +15,11 @@
 
 @mixin button-variant($color, $background, $border)
 {
-	color: $color;
+    color: $color;
 	background-color: $background;
 	border-color: $border;
+    font-weight: 100;
+    font-size: 18px;
 	@include transition-all;
 
 	&:hover,

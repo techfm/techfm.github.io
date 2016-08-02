@@ -1,12 +1,12 @@
 # Site settings
 title: TechFM
-email: mgreenwood@techfm.net.au
+email: info@techfm.net.au
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+phone: 1300 TECHFM
+phone_alt: 1300 832436
 
 # Build settings
 markdown: kramdown
