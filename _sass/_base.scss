@@ -80,6 +80,26 @@ aside {
     padding: 0;
 }
 
+.popover {
+    border-color: $theme-bgmain;
+    color: $theme-dark-text;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 300px;
+    @include sans-serif-font;
+    .popover-title {
+        display: none;
+    }
+    .arrow {
+        border-top-color: $theme-bgmain !important;
+    }
+    ul {
+        list-style: none;
+    }
+}
+
 // Navigation
 
 .navbar-default {

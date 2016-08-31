@@ -42,6 +42,10 @@
         }
     })
 
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
