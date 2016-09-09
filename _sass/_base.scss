@@ -111,7 +111,7 @@ aside {
     .navbar-header .navbar-brand {
         color: $theme-primary;
         @include sans-serif-font;
-        font-weight: 600;
+        font-weight: 200;
         font-size: 20px;
         &:hover,
         &:focus {
@@ -144,19 +144,19 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: transparent;
-        border-color: rgba(white, .3);
+        border-color: rgba($theme-dark, .3);
         .navbar-header .navbar-brand {
-            color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: black;
             }
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba(black, .7);
             &:hover {
-                color: white;
+                color: black;
             }
         }
         &.affix {
@@ -190,7 +190,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/branding/techfm-hero.png');
+    //background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../img/branding/techfm-logo-lg.png');
     text-align: center;
     color: white;
     .header-content {
@@ -247,6 +247,10 @@ header {
 
 .section-heading {
     margin-top: 0;
+}
+
+section#services {
+    background-color: $theme-bglight;
 }
 
 .service-box {
@@ -354,9 +358,12 @@ header {
 }
 
 // Contact
-#contact .fa {
-    color: $theme-dark;
-    font-size: 4em;
+#contact {
+    background-color: $theme-bglight;
+    .fa {
+        color: $theme-dark;
+        font-size: 4em;
+    }
 }
 
 // Extras

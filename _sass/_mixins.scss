@@ -11,6 +11,7 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-color: #F4F0FF;
 }
 
 @mixin button-variant($color, $background, $border)
