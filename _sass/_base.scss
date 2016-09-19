@@ -220,7 +220,7 @@ header {
         background-color: darken( $theme-accent, 8% );
     }
     @media (min-width: 768px) {
-        min-height: 100%;
+        min-height: 600px;
         .header-content {
             position: absolute;
             top: 50%;
